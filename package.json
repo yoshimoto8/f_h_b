@@ -1,0 +1,26 @@
+{
+  "name": "f_h_b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "yoshimoto8 <yoyoyo427435@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "next build && tsc && tsc --project tsconfig.server.json",
+    "start": "cross-env NODE_ENV=production node .next/server"
+  },
+  "dependencies": {
+    "@zeit/next-typescript": "^1.1.1",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.9",
+    "@types/react": "^16.8.7",
+    "cross-env": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.3.3333"
+  }
+}
